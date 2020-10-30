@@ -1,0 +1,15 @@
+package com.Day6;
+
+public class HidingMain {
+    public static void main(String[] args) {
+
+        Hiding h = new Hiding();
+//        h.getDetails();
+        h.setName("Abhi");
+        h.setAge(21);
+//      h.display();
+        System.out.println("Getting name: " + h.getName());
+        System.out.println("Getting age: " + h.getAge());
+
+    }
+}

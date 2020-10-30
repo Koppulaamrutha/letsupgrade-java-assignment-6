@@ -1,0 +1,21 @@
+package com.Day6;
+
+public class Overloading {
+    public void add(int num1, int num2){
+        int res = num1 + num2;
+        System.out.println("Sum is: " + res);
+    }
+
+    public void add(int num1, int num2, int num3){
+        int res = num1 + num2 + num3;
+        System.out.println("Sum is: " + res);
+    }
+}
+
+/*  >> Multiple function having same name inside a same class but the
+         parameter is different parameter called FUNCTION OVERLOADING
+    >> Example: println()
+    >> POLYMORPHISM - A single function having different roles performing different operation
+    >> FUNCTION OVERLOADING is nothing but concept of POLYMORPHISM
+    >> By performing FUNCTION OVERLOADING at the front side we are doing inside POLYMORPHISM
+*/

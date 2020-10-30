@@ -1,0 +1,19 @@
+package com.Day6;
+
+public class Constructors {
+
+    Constructors(){
+        System.out.println("This is a constructor");
+    }
+
+//    Parameters
+    public void printSomething(String animal, int animalAge){
+        System.out.println(animal +" " +animalAge);
+    }
+}
+
+/*  Parameters -:
+ >> Each and every class we have created, by default always has a construction function.
+ >> Constructors doesn't have a return type.
+ >> Constructors always have a same name as class name
+*/

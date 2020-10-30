@@ -1,0 +1,9 @@
+package com.Day6;
+
+public class ConstructorMain {
+    public static void main(String[] args) {
+
+        Constructors e = new Constructors();
+        e.printSomething("Elephant",35);
+    }
+}

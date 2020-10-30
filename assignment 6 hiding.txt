@@ -1,0 +1,48 @@
+package com.Day6;
+
+//Always make your property private.This concept is called Data Hidding.
+import java.util.Scanner;
+
+public class Hiding {
+
+    Scanner sc = new Scanner(System.in);
+
+    private String name;
+    private int age;
+
+    public int getAge(){
+        return age;
+    }
+
+    public void setAge(int age){
+        this.age = age;
+    }
+//    'this' represents the context of the class
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+//    public void getDetails(){
+//        System.out.print("Enter name: ");
+//        name = sc.next();
+////        age= sc.nextInt();
+//    }
+
+    public void display(){
+        System.out.println(name + " " + age);
+    }
+
+}
+
+/*  >> We bound the age variable by getAge() and setAge().
+    >> Data hiding leads to Encapsulation
+    >> When ever we bind variable with functions that concept is known as ENCAPSULATION
+    >>> If we make things PRIVATE that is DATA HIDING and to access the private things we
+        create function to access those variables.That is we bound those variables
+        to function, is called ENCAPSULATION.
+*/
